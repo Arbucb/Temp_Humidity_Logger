@@ -6,7 +6,7 @@ import Adafruit_GPIO.SPI as SPI
 import Adafruit_SSD1306
 from influxdb import InfluxDBClient
 
-dbClient  = InfluxDBClient('localhost', 8086, 'rasppi', 'rasppi010673', 'TempHumid')
+dbClient  = InfluxDBClient('localhost', 8086, 'username here', 'password here', 'TempHumid')
 
 
 from PIL import Image
